@@ -1,0 +1,80 @@
+﻿<div class="row justify-content-center">
+
+    <div class="col-md-8 customCardDiv">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title text-pink">Assign Role</h5>
+                <a asp-controller="Admin" asp-action="Create" class="btn btn-sm btn-primary">Back</a>
+            </div>
+            <div class="card-body">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <form>
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th>ID</th>
+                                    <td>#<label id="ar_userid"></label></td>
+                                </tr>
+                                <tr>
+                                    <th>Name :</th>
+                                    <td><label id="ar_username"></label></td>
+                                </tr>
+                                <tr>
+                                    <th>Mobile :</th>
+                                    <td><label id="ar_mobile"></label></td>
+                                </tr>
+                                <tr>
+                                    <th>Email :</th>
+                                    <td><label id="ar_email"></label></td>
+                                </tr>
+                                <tr>
+                                    <th>Role :</th>
+                                    <td>
+                                        <select id="ar_role" class="form-control">
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <button type="button" class="btn btn-primary" id="btnAssignUserRoles" onclick="return AssignUserRoles();">Assign Role</button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-12">
+                <div class="card customCard">
+                    <div class="card-header">
+                        Total Users : <lable id="usercount"></lable>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive customTable">
+                            <table id="tableDetails" class="table table-sm table-bordered display w-100 mt-1">
+                                <thead>
+                                    <tr>
+                                        @*  <th scope="col">Id</th>*@
+                                        <th scope="col">Role</th>
+                                        <th scope="col">Action</th>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Mobile</th>
+                                        @* <th scope="col">Email</th>*@
+                                    </tr>
+                                </thead>
+                                <tbody id="userlist">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

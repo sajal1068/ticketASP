@@ -1,0 +1,408 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\wwwroot\\js\\user.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\wwwroot\\js\\user.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\views\\admin\\createticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\views\\admin\\createticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\wwwroot\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\wwwroot\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\views\\admin\\dashboard - copy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\views\\admin\\dashboard - copy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\wwwroot\\js\\ticket.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\wwwroot\\js\\ticket.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\views\\admin\\createticket1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\views\\admin\\createticket1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\views\\seller\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\views\\seller\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\wwwroot\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\wwwroot\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\views\\admin\\assignrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\views\\admin\\assignrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\models\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\models\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\views\\admin\\dashboard2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\views\\admin\\dashboard2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\wwwroot\\js\\seller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\wwwroot\\js\\seller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|d:\\project\\lotteryticket\\lottery new\\ticketcoreapp\\ticketcoreapp\\controllers\\sellercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175571CF-D990-4C5C-B6BD-D06F3BA4E9B5}|TicketCoreApp\\TicketCoreApp.csproj|solutionrelative:ticketcoreapp\\controllers\\sellercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 91,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Ticket.js",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\wwwroot\\js\\Ticket.js",
+              "RelativeDocumentMoniker": "TicketCoreApp\\wwwroot\\js\\Ticket.js",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\wwwroot\\js\\Ticket.js",
+              "RelativeToolTip": "TicketCoreApp\\wwwroot\\js\\Ticket.js",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAAALQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-01T19:13:06.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateTicket1.cshtml",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Admin\\CreateTicket1.cshtml",
+              "RelativeDocumentMoniker": "TicketCoreApp\\Views\\Admin\\CreateTicket1.cshtml",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Admin\\CreateTicket1.cshtml",
+              "RelativeToolTip": "TicketCoreApp\\Views\\Admin\\CreateTicket1.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAcwL8BAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T16:06:58.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "TicketCoreApp\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "TicketCoreApp\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T18:30:21.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TicketCoreApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TicketCoreApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAAALgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T06:14:17.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateTicket.cshtml",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Admin\\CreateTicket.cshtml",
+              "RelativeDocumentMoniker": "TicketCoreApp\\Views\\Admin\\CreateTicket.cshtml",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Admin\\CreateTicket.cshtml",
+              "RelativeToolTip": "TicketCoreApp\\Views\\Admin\\CreateTicket.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T17:32:48.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "TicketCoreApp\\Views\\Admin\\Create.cshtml",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "TicketCoreApp\\Views\\Admin\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T15:17:38.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateUser.cshtml",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeDocumentMoniker": "TicketCoreApp\\Views\\Admin\\CreateUser.cshtml",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeToolTip": "TicketCoreApp\\Views\\Admin\\CreateUser.cshtml",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAowGgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T15:47:52.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.js",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\wwwroot\\js\\User.js",
+              "RelativeDocumentMoniker": "TicketCoreApp\\wwwroot\\js\\User.js",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\wwwroot\\js\\User.js",
+              "RelativeToolTip": "TicketCoreApp\\wwwroot\\js\\User.js",
+              "ViewState": "AQIAAP0AAAAAAAAAAAAkwAsBAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2023-10-29T17:13:01.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "TicketCoreApp\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "TicketCoreApp\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAowFUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-29T17:13:01.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "TicketCoreApp\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "TicketCoreApp\\Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAHkAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-10-29T18:33:33.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\appsettings.json",
+              "RelativeDocumentMoniker": "TicketCoreApp\\appsettings.json",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\appsettings.json",
+              "RelativeToolTip": "TicketCoreApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-31T17:35:55.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "TicketCoreApp\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "TicketCoreApp\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-02T06:55:43.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "TicketCoreApp\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "TicketCoreApp\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAGgGAAAAAAAAAAAUwI0GAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-02T06:55:47.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\wwwroot\\css\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "TicketCoreApp\\wwwroot\\css\\bootstrap.min.css",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\wwwroot\\css\\bootstrap.min.css",
+              "RelativeToolTip": "TicketCoreApp\\wwwroot\\css\\bootstrap.min.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-02T05:36:59.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TicketCoreApp\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TicketCoreApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAAEEAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-30T16:56:27.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Dashboard - Copy.cshtml",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Admin\\Dashboard - Copy.cshtml",
+              "RelativeDocumentMoniker": "TicketCoreApp\\Views\\Admin\\Dashboard - Copy.cshtml",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Admin\\Dashboard - Copy.cshtml",
+              "RelativeToolTip": "TicketCoreApp\\Views\\Admin\\Dashboard - Copy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T05:34:27.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Seller\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "TicketCoreApp\\Views\\Seller\\Dashboard.cshtml",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Seller\\Dashboard.cshtml",
+              "RelativeToolTip": "TicketCoreApp\\Views\\Seller\\Dashboard.cshtml",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAAFcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-04T07:57:51.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "admin.js",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\wwwroot\\js\\admin.js",
+              "RelativeDocumentMoniker": "TicketCoreApp\\wwwroot\\js\\admin.js",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\wwwroot\\js\\admin.js",
+              "RelativeToolTip": "TicketCoreApp\\wwwroot\\js\\admin.js",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAAAIoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-31T17:11:17.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AssignRole.cshtml",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Admin\\AssignRole.cshtml",
+              "RelativeDocumentMoniker": "TicketCoreApp\\Views\\Admin\\AssignRole.cshtml",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Admin\\AssignRole.cshtml",
+              "RelativeToolTip": "TicketCoreApp\\Views\\Admin\\AssignRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T16:03:28.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserDetail.cs",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Models\\UserDetail.cs",
+              "RelativeDocumentMoniker": "TicketCoreApp\\Models\\UserDetail.cs",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Models\\UserDetail.cs",
+              "RelativeToolTip": "TicketCoreApp\\Models\\UserDetail.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAApwBoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T17:39:18.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Program.cs",
+              "RelativeDocumentMoniker": "TicketCoreApp\\Program.cs",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Program.cs",
+              "RelativeToolTip": "TicketCoreApp\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAYwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T17:28:45.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SellerController.cs",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Controllers\\SellerController.cs",
+              "RelativeDocumentMoniker": "TicketCoreApp\\Controllers\\SellerController.cs",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Controllers\\SellerController.cs",
+              "RelativeToolTip": "TicketCoreApp\\Controllers\\SellerController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAIBJwFEAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-06T17:20:26.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Dashboard2.cshtml",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Admin\\Dashboard2.cshtml",
+              "RelativeDocumentMoniker": "TicketCoreApp\\Views\\Admin\\Dashboard2.cshtml",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\Views\\Admin\\Dashboard2.cshtml",
+              "RelativeToolTip": "TicketCoreApp\\Views\\Admin\\Dashboard2.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T17:30:35.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Seller.js",
+              "DocumentMoniker": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\wwwroot\\js\\Seller.js",
+              "RelativeDocumentMoniker": "TicketCoreApp\\wwwroot\\js\\Seller.js",
+              "ToolTip": "D:\\Project\\LotteryTicket\\LOTTERY NEW\\TicketCoreApp\\TicketCoreApp\\wwwroot\\js\\Seller.js",
+              "RelativeToolTip": "TicketCoreApp\\wwwroot\\js\\Seller.js",
+              "ViewState": "AQIAAOcAAAAAAAAAAIBJwPkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2023-11-06T17:19:29.744Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

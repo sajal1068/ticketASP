@@ -1,0 +1,105 @@
+﻿<style>
+    /* custom.css */
+
+    body {
+        background-color: #f8f9fa;
+    }
+
+  /*  .card {
+        border-radius: 0.75rem;
+    }
+
+    .card-header {
+        border-bottom: none;
+        padding: 1rem 1.25rem;
+    }
+
+    .card-title {
+        margin-bottom: 0;
+    }*/
+
+    .modalFormDesign .form-label {
+        margin-bottom: 0.5rem;
+    }
+
+    .modalFormDesign .form-control {
+        border-radius: 0.5rem;
+        padding: 0.75rem;
+        border: 1px solid #ced4da;
+    }
+
+    .modalFormDesign .form-select {
+        border-radius: 0.5rem;
+        padding: 0.75rem;
+        border: 1px solid #ced4da;
+    }
+
+    .modalFormDesign .text-danger {
+        font-size: 0.875rem;
+    }
+
+    .modalFormDesign .btn {
+        padding: 0.5rem 2rem;
+        border-radius: 0.5rem;
+    }
+
+    .customCardDiv {
+        margin-top: 2rem;
+    }
+
+</style>
+<div class="container my-5">
+    <div class="row justify-content-center customCardDiv">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-header">
+                    <h5 class="card-titletext-pink">Create User</h5>
+                    <a asp-controller="Admin" asp-action="Create" class="btn btn-sm btn-primary">Back</a>
+                </div>
+                <div class="card-body">
+                    <form class="modalFormDesign">
+                        <div class="mb-3">
+                            <label for="userFirstName" class="form-label fw-bold">First Name</label>
+                            <input type="text" class="form-control form-control-sm" id="userFirstName" maxlength="50" placeholder="Enter First Name" aria-describedby="emailHelp" autocomplete="off" />
+                            <h6 id="checkFirstName" class="text-danger mt-1"></h6>
+                        </div>
+                        <div class="mb-3">
+                            <label for="userLastName" class="form-label fw-bold">Last Name</label>
+                            <input type="text" class="form-control form-control-sm" id="userLastName" maxlength="50" placeholder="Enter Last Name" autocomplete="off" />
+                            <h6 id="checkLastName" class="text-danger mt-1"></h6>
+                        </div>
+                        <div class="mb-3">
+                            <label for="userMobile" class="form-label fw-bold">Mobile Number</label>
+                            <input type="text" class="form-control form-control-sm" id="userMobile" maxlength="10" placeholder="Enter Mobile Number" autocomplete="off" />
+                            <h6 id="checkMobile" class="text-danger mt-1"></h6>
+                        </div>
+                        <div class="mb-3">
+                            <label for="userPassword" class="form-label fw-bold">Password</label>
+                            <input type="password" class="form-control form-control-sm" id="userPassword" maxlength="15" placeholder="Enter Password" autocomplete="off" />
+                            <h6 id="checkPassword" class="text-danger mt-1"></h6>
+                        </div>
+                        <div class="mb-3">
+                            <label for="userCity" class="form-label fw-bold">City</label>
+                            <input type="text" class="form-control form-control-sm" id="userCity" maxlength="50" placeholder="Enter City" autocomplete="off" />
+                            <h6 id="checkCity" class="text-danger mt-1"></h6>
+                        </div>
+                        <div class="mb-3">
+                            <label for="userRole" class="form-label fw-bold">Role</label>
+                            <select id="userRole" class="form-select form-select-sm">
+                                <!-- Options will be populated here -->
+                            </select>
+                            <h6 id="checkRole" class="text-danger mt-1"></h6>
+                        </div>
+                        <div class="w-100 text-center">
+                            <button type="button" class="btn btn-sm btn-primary" id="btnAddUser" onclick="return AddUser();">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/CreateUser.js"></script>

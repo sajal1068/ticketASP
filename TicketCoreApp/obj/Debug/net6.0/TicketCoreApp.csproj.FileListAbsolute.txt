@@ -1,0 +1,237 @@
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\appsettings.Development.json
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\appsettings.json
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.staticwebassets.runtime.json
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.exe
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.deps.json
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.runtimeconfig.json
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.dll
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.pdb
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\NWebsec.AspNetCore.Core.dll
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\NWebsec.AspNetCore.Mvc.dll
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\NWebsec.AspNetCore.Mvc.TagHelpers.dll
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\WebEssentials.AspNetCore.Pwa.dll
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.csproj.AssemblyReference.cache
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.AssemblyInfoInputs.cache
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.AssemblyInfo.cs
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.csproj.CoreCompileInputs.cache
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.MvcApplicationPartsAssemblyInfo.cs
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.RazorAssemblyInfo.cache
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.RazorAssemblyInfo.cs
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets\msbuild.TicketCoreApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets\msbuild.build.TicketCoreApp.props
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TicketCoreApp.props
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TicketCoreApp.props
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets.build.json
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets.development.json
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\scopedcss\bundle\TicketCoreApp.styles.css
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\scopedcss\projectbundle\TicketCoreApp.bundle.scp.css
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.csproj.CopyComplete
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.dll
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\refint\TicketCoreApp.dll
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.pdb
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.genruntimeconfig.cache
+D:\Project\LotteryTicket\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\ref\TicketCoreApp.dll
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\appsettings.Development.json
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\appsettings.json
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.staticwebassets.runtime.json
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.exe
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.deps.json
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.runtimeconfig.json
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.dll
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.pdb
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\NWebsec.AspNetCore.Core.dll
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\NWebsec.AspNetCore.Mvc.dll
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\NWebsec.AspNetCore.Mvc.TagHelpers.dll
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\WebEssentials.AspNetCore.Pwa.dll
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.csproj.AssemblyReference.cache
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.AssemblyInfoInputs.cache
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.AssemblyInfo.cs
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.csproj.CoreCompileInputs.cache
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.MvcApplicationPartsAssemblyInfo.cs
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.MvcApplicationPartsAssemblyInfo.cache
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.RazorAssemblyInfo.cache
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.RazorAssemblyInfo.cs
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets\msbuild.TicketCoreApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets\msbuild.build.TicketCoreApp.props
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TicketCoreApp.props
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TicketCoreApp.props
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets.pack.json
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets.build.json
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets.development.json
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\scopedcss\bundle\TicketCoreApp.styles.css
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\scopedcss\projectbundle\TicketCoreApp.bundle.scp.css
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.csproj.CopyComplete
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.dll
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\refint\TicketCoreApp.dll
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.pdb
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.genruntimeconfig.cache
+D:\TicketCoreApp-25112023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\ref\TicketCoreApp.dll
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\appsettings.Development.json
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\appsettings.json
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.staticwebassets.runtime.json
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.exe
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.deps.json
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.runtimeconfig.json
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.dll
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.pdb
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\NWebsec.AspNetCore.Core.dll
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\NWebsec.AspNetCore.Mvc.dll
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\NWebsec.AspNetCore.Mvc.TagHelpers.dll
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\WebEssentials.AspNetCore.Pwa.dll
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.csproj.AssemblyReference.cache
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.AssemblyInfoInputs.cache
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.AssemblyInfo.cs
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.csproj.CoreCompileInputs.cache
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.MvcApplicationPartsAssemblyInfo.cs
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.RazorAssemblyInfo.cache
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.RazorAssemblyInfo.cs
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets\msbuild.TicketCoreApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets\msbuild.build.TicketCoreApp.props
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TicketCoreApp.props
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TicketCoreApp.props
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets.build.json
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets.development.json
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\scopedcss\bundle\TicketCoreApp.styles.css
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\scopedcss\projectbundle\TicketCoreApp.bundle.scp.css
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.dll
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\refint\TicketCoreApp.dll
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.pdb
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.genruntimeconfig.cache
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\ref\TicketCoreApp.dll
+D:\Project\LotteryTicket\27102023\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCo.996E951B.Up2Date
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\appsettings.Development.json
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\appsettings.json
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.staticwebassets.runtime.json
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.exe
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.deps.json
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.runtimeconfig.json
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.dll
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.pdb
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\NWebsec.AspNetCore.Core.dll
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\NWebsec.AspNetCore.Mvc.dll
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\NWebsec.AspNetCore.Mvc.TagHelpers.dll
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\WebEssentials.AspNetCore.Pwa.dll
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.csproj.AssemblyReference.cache
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.AssemblyInfoInputs.cache
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.AssemblyInfo.cs
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.csproj.CoreCompileInputs.cache
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.MvcApplicationPartsAssemblyInfo.cs
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.RazorAssemblyInfo.cache
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.RazorAssemblyInfo.cs
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets.build.json
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets.development.json
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets\msbuild.TicketCoreApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets\msbuild.build.TicketCoreApp.props
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TicketCoreApp.props
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TicketCoreApp.props
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\scopedcss\bundle\TicketCoreApp.styles.css
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\scopedcss\projectbundle\TicketCoreApp.bundle.scp.css
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCo.996E951B.Up2Date
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.dll
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\refint\TicketCoreApp.dll
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.pdb
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.genruntimeconfig.cache
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\ref\TicketCoreApp.dll
+D:\Project\LotteryTicket\LOTTERY NEW\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout - Copy.cshtml.rz.scp.css
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\appsettings.Development.json
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\appsettings.json
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.staticwebassets.runtime.json
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.exe
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.deps.json
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.runtimeconfig.json
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.dll
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\TicketCoreApp.pdb
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\NWebsec.AspNetCore.Core.dll
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\NWebsec.AspNetCore.Mvc.dll
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\NWebsec.AspNetCore.Mvc.TagHelpers.dll
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\bin\Debug\net6.0\WebEssentials.AspNetCore.Pwa.dll
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.csproj.AssemblyReference.cache
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.AssemblyInfoInputs.cache
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.AssemblyInfo.cs
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.csproj.CoreCompileInputs.cache
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.MvcApplicationPartsAssemblyInfo.cs
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.RazorAssemblyInfo.cache
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.RazorAssemblyInfo.cs
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets\msbuild.TicketCoreApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets\msbuild.build.TicketCoreApp.props
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TicketCoreApp.props
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TicketCoreApp.props
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets.build.json
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\staticwebassets.development.json
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout - Copy.cshtml.rz.scp.css
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\scopedcss\bundle\TicketCoreApp.styles.css
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\scopedcss\projectbundle\TicketCoreApp.bundle.scp.css
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.csproj.CopyComplete
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.dll
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\refint\TicketCoreApp.dll
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.pdb
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\TicketCoreApp.genruntimeconfig.cache
+D:\Tiket\TicketCoreApp-03062024\TicketCoreApp\TicketCoreApp\obj\Debug\net6.0\ref\TicketCoreApp.dll

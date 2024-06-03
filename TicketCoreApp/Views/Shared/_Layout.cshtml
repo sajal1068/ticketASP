@@ -1,0 +1,228 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@{
+    // Retrieve the username from the session
+    string username = HttpContextAccessor.HttpContext.Session.GetString("UserName");
+}
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewData["Title"] - Lottery</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,800;1,200;1,300;1,600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/gijgo@1.9.14/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+    </script>
+    <style>
+        /* Your custom CSS styles here */
+
+        /* Header styles */
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center; /* Center vertically */
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            margin-left: auto; /* Push user info to the right */
+        }
+
+        .username {
+            margin-right: 10px;
+        }
+
+        .logout-btn {
+            background-color: transparent;
+            border: none;
+            color: white;
+            cursor: pointer;
+            padding: 0;
+            margin-left: 10px; /* Add margin for spacing */
+            display: flex;
+            align-items: center; /* Center items vertically */
+        }
+
+            .logout-btn svg {
+                width: 20px; /* Adjust icon size */
+                height: 20px;
+                fill: white; /* Set the icon color to white */
+            }
+
+        .logout-text {
+            display: none; /* Hide logout text by default */
+            margin-left: 5px; /* Add spacing between icon and text */
+            color: white; /* Set the text color to white */
+        }
+
+        .logout-btn:hover .logout-text {
+            display: inline; /* Show logout text on hover */
+        }
+
+        .logout-btn:hover {
+            text-decoration: none; /* Remove default underline on hover */
+        }
+
+
+    </style>
+
+</head>
+<body class="bodybg w-100">
+
+    <nav>
+        <div class="container">
+            <dov class="row justify-content-center">
+                <div class="col-md-8 position-relative">                   
+                    <div class="profile">
+                        <div class="user">
+                            @if (!string.IsNullOrEmpty(username))
+                            {
+                                <h3> @username</h3>                           
+                            }                          
+                        </div>
+                        <div class="img-box">
+                            <img src="~/images/user.png" alt="some user image"> />
+                           @* <img src="https://i.postimg.cc/BvNYhMHS/user-img.jpg" alt="some user image">*@
+                            
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <ul>                           
+                            <li><a href="#" onclick="logout()"><i class="ph-bold ph-sign-out"></i>&nbsp;Sign Out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </dov>    
+        </div>     
+    </nav>
+    <div class="mainSection-100"></div>
+
+
+  @*  <div class="header">
+        <div class="user-info">
+          
+            <button class="logout-btn" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M10.5 1a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm.5 3.5a.5.5 0 0 0-.5-.5H1a.5.5 0 0 0 0 1h10.5a.5.5 0 0 0 .5-.5zm-5.854 3.354a.5.5 0 0 1 0 .708l1.646 1.647H4a.5.5 0 0 1 0-1h2.793l-1.646 1.646a.5.5 0 0 1-.708-.708l2-2a.5.5 0 0 1 0-.708l-2-2a.5.5 0 0 1 .708-.708l1.646 1.646H4a.5.5 0 0 1 0-1h2.793l-1.646 1.646a.5.5 0 1 1-.708-.708z" />
+                </svg>
+                <span class="logout-text">Logout</span>
+            </button>
+        </div>
+    </div>*@
+
+    <div class="container mt-5">      
+        @RenderBody()
+    </div>
+    <section class="bottomNav">
+        <div class="container" style="width: 50%;">
+            <div class="row">
+                <div class="col-12">
+                    <div class="menuFrame">
+                        <ul class="bottomMenu">
+                            <li>
+                                <a asp-controller="Admin" asp-action="Create" class="active">
+                                    <span>
+                                        <svg id="Layer_3" height="25" viewBox="0 0 32 32" width="25" xmlns="http://www.w3.org/2000/svg" data-name="Layer 3"><circle cx="14" cy="8" r="7" /><path d="m14 17a13.015 13.015 0 0 0 -13 13 1 1 0 0 0 1 1h24a1 1 0 0 0 1-1 13.015 13.015 0 0 0 -13-13z" /><path d="m30 14h-3v-3a1 1 0 0 0 -2 0v3h-3a1 1 0 0 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2z" /></svg>
+                                    </span>
+                                    Create
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sold.html" class="active">
+                                    <span>
+                                        <svg viewBox="0 0 47.95 47.95" xmlns="http://www.w3.org/2000/svg"><g id="Layer_2" data-name="Layer 2"><g id="Icon"><path d="m28.85 11c-.89-.89-1.54-1.14-2.43-.26l-.37.38 2.65 2.65.37-.37c.73-.74.93-1.24-.22-2.4z" /><path d="m19 20.73c-1-1-1.76-.88-2.34-.29-.76.76-.39 1.62.38 2.38s1.61 1.14 2.39.37.37-1.64-.43-2.46z" /><path d="m24.47 31.49c-1-1-1.75-.88-2.34-.29-.76.76-.38 1.62.38 2.39s1.62 1.13 2.39.36.39-1.64-.43-2.46z" /><path d="m48 20.38v-15.31a2 2 0 0 0 -.59-1.41l-3.12-3.07a2 2 0 0 0 -1.41-.59h-15.31a2 2 0 0 0 -1.42.59l-25.56 25.56a2 2 0 0 0 0 2.85l18.41 18.36a2 2 0 0 0 2.83 0l25.53-25.56a2 2 0 0 0 .64-1.42zm-12.53-2.22-1.53 1.53 3.65 3.65-1.5 1.5-3.65-3.65-1.53 1.52-1.2-1.19 4.56-4.52zm-9.79-8.87c1.55-1.55 3.15-1.32 4.64.17 1.71 1.71 1.59 3.3.21 4.68l-2.23 2.23-4.85-4.85zm-5.27 5.27 3.66 3.65 2.34-2.34 1.19 1.2-3.84 3.84-4.85-4.85zm-9 15.54 1.34-1.52a1.14 1.14 0 0 0 1.67 0c.46-.46.41-.93.17-1.17-.41-.41-1.06 0-1.55.31-1.14.73-2.39 1.27-3.35.31-.73-.73-.87-2 .64-3.48s2.44-1.34 3.44-.55l-1.33 1.49a.93.93 0 0 0 -1.36.11c-.27.27-.41.64-.14.91s.69 0 1-.23c1.36-.88 2.75-1.69 3.91-.53.88.88 1 2.31-.49 3.8-1.25 1.18-2.53 1.79-4 .55zm4.15-5.78a3.25 3.25 0 0 1 0-5 3.22 3.22 0 0 1 5-.05c1.68 1.68 1.61 3.47.08 5-1.82 1.73-3.64 1.54-5.13.05zm21.78-13.71a3 3 0 1 1 4.25 0 3 3 0 0 1 -4.25 0zm-16.34 24.47a3.24 3.24 0 0 1 0-5 3.21 3.21 0 0 1 5 0c1.71 1.7 1.59 3.5.08 5-1.74 1.67-3.55 1.53-5.08 0zm6.29-5.37-2.89-2.89 1.5-1.5 3 3a1.17 1.17 0 1 0 1.66-1.66l-3-3 1.49-1.49 2.95 2.89c1.2 1.2 1.36 2.72-.16 4.24s-3.03 1.91-4.54.41z" /></g></g></svg>
+                                    </span>Sold
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void();" class="active">
+                                    <span>
+                                        <svg id="Solid" height="25" viewBox="0 0 512 512" width="25" xmlns="http://www.w3.org/2000/svg"><circle cx="216" cy="112" r="80" /><path d="m343.817 274.637c-31.117-42.497-77.107-66.637-127.817-66.637-45.522 0-87.578 19.485-118.421 54.865-31.062 35.633-48.565 85.3-49.536 140.291 18.364 9.261 93.769 44.844 167.957 44.844a312.191 312.191 0 0 0 56.6-5.387 111.947 111.947 0 0 1 71.217-167.976z" /><path d="m368 288a96 96 0 1 0 96 96 96.108 96.108 0 0 0 -96-96zm56 104h-56a8 8 0 0 1 -6.146-2.878l-40-48a8 8 0 0 1 12.292-10.244l37.601 45.122h52.253a8 8 0 0 1 0 16z" /></svg>
+                                    </span>Histroy
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void();" class="active">
+                                    <span> <svg id="Solid" height="25" viewBox="0 0 512 512" width="25" xmlns="http://www.w3.org/2000/svg"><circle cx="216" cy="112" r="80" /><path d="m343.817 274.637c-31.117-42.497-77.107-66.637-127.817-66.637-45.522 0-87.578 19.485-118.421 54.865-31.062 35.633-48.565 85.3-49.536 140.291 18.364 9.261 93.769 44.844 167.957 44.844a312.191 312.191 0 0 0 56.6-5.387 111.947 111.947 0 0 1 71.217-167.976z" /><path d="m368 288a96 96 0 1 0 96 96 96.108 96.108 0 0 0 -96-96zm56 104h-56a8 8 0 0 1 -6.146-2.878l-40-48a8 8 0 0 1 12.292-10.244l37.601 45.122h52.253a8 8 0 0 1 0 16z" /></svg></span>
+                                    Menu 04
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/gijgo@1.9.14/js/gijgo.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // $('.acc-container .acc:nth-child(1) .acc-head').addClass('active');
+            // $('.acc-container .acc:nth-child(1) .acc-content').slideDown();
+            $('.acc-head').on('click', function () {
+                if ($(this).hasClass('active')) {
+                    $(this).siblings('.acc-content').slideUp();
+                    $(this).removeClass('active');
+                }
+                else {
+                    $('.acc-content').slideUp();
+                    $('.acc-head').removeClass('active');
+                    $(this).siblings('.acc-content').slideToggle();
+                    $(this).toggleClass('active');
+                }
+            });
+
+
+        });
+
+        $(document).ready(function () {
+            $(".accordion").on("click", ".heading", function () {
+
+                $(this).toggleClass("active").next().slideToggle();
+
+                $(".contents").not($(this).next()).slideUp(300);
+
+                $(this).siblings().removeClass("active");
+            });
+        });
+    </script>
+    <script src="~/js/admin.js"></script>
+    <script src="~/js/user.js"></script>
+    <script src="~/js/site.js"></script>
+    <script src="~/js/ticket.js"></script>
+    <script src="~/js/seller.js"></script>
+    <script src="~/js/agent.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+
+
+        let profile = document.querySelector('.profile');
+        let menu = document.querySelector('.menu');
+
+        profile.onclick = function () {
+            menu.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>

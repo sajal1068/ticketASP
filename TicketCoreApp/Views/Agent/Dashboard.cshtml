@@ -1,0 +1,93 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+<div class="row mt-2">
+    <div class="col-12">
+        <input id="agentid" value="@HttpContextAccessor.HttpContext.Session.GetString("UserId")" type="hidden" />
+        <div class="card customCard">
+            <div class="card-header">
+                Total Collection : <lable id="totalCollection"></lable>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table id="" class="table table-sm table-bordered display w-100 mt-1 tableMobileView">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Name</th>
+                                <th>Mobile</th>
+                                <th>Collection</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="agentSellerList">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="CollectionModal" aria-labelledby="staticBackdropLabel" data-bs-backdrop="static" data-bs-keyboard="false" aria-hidden="true" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Ticket Collection</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <input id="sellerid" type="hidden" />
+                    <table class="table table-bordered">
+                        <tr>
+                            <th>Draw Date</th>
+                            <td>
+                                <input type="text" class="form-control" id="col_ticket_draw_date" placeholder="yyyy-mm-dd" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Draw Time</th>
+                            <td>
+                                <select id="col_ticket_draw_time" class="form-control">
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Ticket Sam Type</th>
+                            <td>
+                                <select id="col_ticket_sam_type" class="form-control">
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <button type="button" class="btn btn-primary" id="btnShowTicketCollection" onclick="return ShowSellerTicketCollections();">Show Collection</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                <div class="clearfix"></div>
+                <div class="row" id="SellerTicketCollection">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+     
+        $(function () {
+            var today = new Date();
+            $('#col_ticket_draw_date').datepicker({
+                uiLibrary: 'bootstrap5',
+                autoclose: true,
+                format: 'yyyy-mm-dd',
+                endDate: "today",
+                maxDate: today
+            });
+        });
+
+    </script>
+}

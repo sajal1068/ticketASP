@@ -1,0 +1,667 @@
+﻿<div class="row">
+
+    <div class="col-12 mb-2">
+        <ul class="userProfiles">
+            <li><span>Date: </span>29-05-2024 </li>
+            <li><span>User :</span></li>
+            <li><span>Role: </span> </li>
+        </ul>
+    </div>
+    <div class="col-12 customCardDiv">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title text-pink">Create Ticket</h5>
+                <a href="create.html" class="btn btn-sm btn-primary">Back</a>
+            </div>
+            <div class="card-body">
+                <!-- Accrodian -->
+                <div class="acc-container">
+                    <div class="acc red">
+                        <div class="acc-head">
+                            <p id="ticket_draw_time1pm">1 PM</p>
+                        </div>
+                        <div class="acc-content">
+                            <div class="accordion">
+                                <div class="heading" id="ticket_sam_type_1pm3sam">3 SAM</div>
+                                <div class="contents">
+                                    <form class="modalFormDesign">
+                                        <div class="mb-3">
+                                            <label for="Age" class="form-label fw-bold">No. of Ticket</label>
+                                            <select id="no_of_ticket_1pm3sam" class="form-control">
+                                                <option value="0">Select</option>
+                                                <option value="10">10</option>
+                                                <option value="20">20</option>
+                                                <option value="30">30</option>
+                                                <option value="50">50</option>
+                                                <option value="100">100</option>
+                                                <option value="200">200</option>
+                                                <option value="300">300</option>
+                                                <option value="400">400</option>
+                                                <option value="500">500</option>
+                                                <option value="1000">1000</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_serial_no_1pm3sam" class="form-label fw-bold">Ticket Serial No.</label>
+                                            <input type="text" class="form-control" id="ticket_serial_no_1pm3sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketSerialNo" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_draw_no_1pm3sam" class="form-label fw-bold">Ticket Draw No.</label>
+                                            <input type="text" class="form-control" id="ticket_draw_no_1pm3sam" maxlength="3" placeholder="" />
+                                            <h6 id="checkTicketDrawNo" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_code_1pm3sam" class="form-label fw-bold">Ticket Code</label>
+                                            <input type="text" class="form-control" id="ticket_code_1pm3sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketCode" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="w-100 text-center">
+                                            <button class="btn btn-sm btn-danger" id="btnAddTicket_1pm3sam">Submit</button>
+                                        </div>
+                                    </form>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="heading" id="ticket_sam_type_1pm5sam">5 SAM</div>
+                                <div class="contents">
+                                    <form class="modalFormDesign">
+                                        <div class="mb-3">
+                                            <label for="Age" class="form-label fw-bold">No. of Ticket</label>
+                                            <select id="no_of_ticket_1pm5sam" class="form-control">
+                                                <option value="0">Select</option>
+                                                <option value="10">10</option>
+                                                <option value="20">20</option>
+                                                <option value="30">30</option>
+                                                <option value="50">50</option>
+                                                <option value="100">100</option>
+                                                <option value="200">200</option>
+                                                <option value="300">300</option>
+                                                <option value="400">400</option>
+                                                <option value="500">500</option>
+                                                <option value="1000">1000</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_serial_no_1pm3sam" class="form-label fw-bold">Ticket Serial No.</label>
+                                            <input type="text" class="form-control" id="ticket_serial_no_1pm5sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketSerialNo_1pm5sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_draw_no_1pm3sam" class="form-label fw-bold">Ticket Draw No.</label>
+                                            <input type="text" class="form-control" id="ticket_draw_no_1pm5sam" maxlength="3" placeholder="" />
+                                            <h6 id="checkTicketDrawNo_1pm5sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_code_1pm3sam" class="form-label fw-bold">Ticket Code</label>
+                                            <input type="text" class="form-control" id="ticket_code_1pm5sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketCode_1pm5sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="w-100 text-center">
+                                            <button class="btn btn-sm btn-danger" id="btnAddTicket_1pm5sam">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="heading" id="ticket_sam_type_1pm10sam">10 SAM</div>
+                                <div class="contents">
+                                    <form class="modalFormDesign">
+                                        <div class="mb-3">
+                                            <label for="no_of_ticket_1pm10sam" class="form-label fw-bold">No. of Ticket</label>
+                                            <select id="no_of_ticket_1pm10sam" class="form-control">
+                                                <option value="0">Select</option>
+                                                <option value="10">10</option>
+                                                <option value="20">20</option>
+                                                <option value="30">30</option>
+                                                <option value="50">50</option>
+                                                <option value="100">100</option>
+                                                <option value="200">200</option>
+                                                <option value="300">300</option>
+                                                <option value="400">400</option>
+                                                <option value="500">500</option>
+                                                <option value="1000">1000</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_serial_no_1pm10sam" class="form-label fw-bold">Ticket Serial No.</label>
+                                            <input type="text" class="form-control" id="ticket_serial_no_1pm10Sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketSerialNo_1pm10Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_draw_no_1pm10Sam" class="form-label fw-bold">Ticket Draw No.</label>
+                                            <input type="text" class="form-control" id="ticket_draw_no_1pm10Sam" maxlength="3" placeholder="" />
+                                            <h6 id="checkTicketDrawNo_1pm10Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_code_1pm10Sam" class="form-label fw-bold">Ticket Code</label>
+                                            <input type="text" class="form-control" id="ticket_code_1pm10Sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketCode_1pm10Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="w-100 text-center">
+                                            <button class="btn btn-sm btn-danger" id="btnAddTicket_1pm10Sam">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="heading" id="ticket_sam_type_1pm15Sam">15 SAM</div>
+                                <div class="contents">
+                                    <form class="modalFormDesign">
+                                        <div class="mb-3">
+                                            <label for="no_of_ticket_1pm15Sam" class="form-label fw-bold">No. of Ticket</label>
+                                            <select id="no_of_ticket_1pm15Sam" class="form-control">
+                                                <option value="0">Select</option>
+                                                <option value="10">10</option>
+                                                <option value="20">20</option>
+                                                <option value="30">30</option>
+                                                <option value="50">50</option>
+                                                <option value="100">100</option>
+                                                <option value="200">200</option>
+                                                <option value="300">300</option>
+                                                <option value="400">400</option>
+                                                <option value="500">500</option>
+                                                <option value="1000">1000</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_serial_no_1pm15Sam" class="form-label fw-bold">Ticket Serial No.</label>
+                                            <input type="text" class="form-control" id="ticket_serial_no_1pm15Sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketSerialNo_1pm15Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_draw_no_1pm15Sam" class="form-label fw-bold">Ticket Draw No.</label>
+                                            <input type="text" class="form-control" id="ticket_draw_no_1pm15Sam" maxlength="3" placeholder="" />
+                                            <h6 id="checkTicketDrawNo_1pm15Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_code_1pm15Sam" class="form-label fw-bold">Ticket Code</label>
+                                            <input type="text" class="form-control" id="ticket_code_1pm15Sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketCode_1pm15Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="w-100 text-center">
+                                            <button class="btn btn-sm btn-danger" id="btnAddTicket_1pm15Sam">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="heading" id="ticket_sam_type_1pm20Sam">20 SAM</div>
+                                <div class="contents">
+                                    <form class="modalFormDesign">
+                                        <div class="mb-3">
+                                            <label for="no_of_ticket_1pm20Sam" class="form-label fw-bold">No. of Ticket</label>
+                                            <select id="no_of_ticket_1pm20Sam" class="form-control">
+                                                <option value="0">Select</option>
+                                                <option value="10">10</option>
+                                                <option value="20">20</option>
+                                                <option value="30">30</option>
+                                                <option value="50">50</option>
+                                                <option value="100">100</option>
+                                                <option value="200">200</option>
+                                                <option value="300">300</option>
+                                                <option value="400">400</option>
+                                                <option value="500">500</option>
+                                                <option value="1000">1000</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_serial_no_1pm20Sam" class="form-label fw-bold">Ticket Serial No.</label>
+                                            <input type="text" class="form-control" id="ticket_serial_no_1pm20Sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketSerialNo_1pm20Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_draw_no_1pm20Sam" class="form-label fw-bold">Ticket Draw No.</label>
+                                            <input type="text" class="form-control" id="ticket_draw_no_1pm20Sam" maxlength="3" placeholder="" />
+                                            <h6 id="checkTicketDrawNo_1pm20Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_code_1pm20Sam" class="form-label fw-bold">Ticket Code</label>
+                                            <input type="text" class="form-control" id="ticket_code_1pm20Sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketCode_1pm20Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <!-- <div class="mb-3">
+                                            <label for="ticket_sam_type" class="form-label fw-bold">Ticket Sam Type</label>
+                                            <select id="ticket_sam_type" class="form-control">
+                                            </select>
+                                        </div> -->
+                                        <div class="w-100 text-center">
+                                            <button class="btn btn-sm btn-danger" id="btnAddTicket_1pm20Sam">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="acc purpale">
+                        <div class=" acc-head">
+                            <p id="ticket_draw_time6pm">6 PM</p>
+                        </div>
+                        <div class="acc-content">
+                            <div class="accordion">
+                                <div class="heading" id="ticket_sam_type_6pm3sam">3 SAM</div>
+                                <div class="contents">
+                                    <form class="modalFormDesign">
+                                        <div class="mb-3">
+                                            <label for="Age" class="form-label fw-bold">No. of Ticket</label>
+                                            <select id="no_of_ticket_6pm3sam" class="form-control">
+                                                <option value="0">Select</option>
+                                                <option value="10">10</option>
+                                                <option value="20">20</option>
+                                                <option value="30">30</option>
+                                                <option value="50">50</option>
+                                                <option value="100">100</option>
+                                                <option value="200">200</option>
+                                                <option value="300">300</option>
+                                                <option value="400">400</option>
+                                                <option value="500">500</option>
+                                                <option value="1000">1000</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_serial_no_6pm3sam" class="form-label fw-bold">Ticket Serial No.</label>
+                                            <input type="text" class="form-control" id="ticket_serial_no_6pm3sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketSerialNo" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_draw_no_6pm3sam" class="form-label fw-bold">Ticket Draw No.</label>
+                                            <input type="text" class="form-control" id="ticket_draw_no_6pm3sam" maxlength="3" placeholder="" />
+                                            <h6 id="checkTicketDrawNo" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_code_6pm3sam" class="form-label fw-bold">Ticket Code</label>
+                                            <input type="text" class="form-control" id="ticket_code_6pm3sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketCode" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="w-100 text-center">
+                                            <button class="btn btn-sm btn-danger" id="btnAddTicket_6pm3sam">Submit</button>
+                                        </div>
+                                    </form>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="heading" id="ticket_sam_type_6pm5sam">5 SAM</div>
+                                <div class="contents">
+                                    <form class="modalFormDesign">
+                                        <div class="mb-3">
+                                            <label for="Age" class="form-label fw-bold">No. of Ticket</label>
+                                            <select id="no_of_ticket_6pm5sam" class="form-control">
+                                                <option value="0">Select</option>
+                                                <option value="10">10</option>
+                                                <option value="20">20</option>
+                                                <option value="30">30</option>
+                                                <option value="50">50</option>
+                                                <option value="100">100</option>
+                                                <option value="200">200</option>
+                                                <option value="300">300</option>
+                                                <option value="400">400</option>
+                                                <option value="500">500</option>
+                                                <option value="1000">1000</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_serial_no_6pm3sam" class="form-label fw-bold">Ticket Serial No.</label>
+                                            <input type="text" class="form-control" id="ticket_serial_no_6pm5sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketSerialNo_6pm5sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_draw_no_6pm3sam" class="form-label fw-bold">Ticket Draw No.</label>
+                                            <input type="text" class="form-control" id="ticket_draw_no_6pm5sam" maxlength="3" placeholder="" />
+                                            <h6 id="checkTicketDrawNo_6pm5sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_code_6pm3sam" class="form-label fw-bold">Ticket Code</label>
+                                            <input type="text" class="form-control" id="ticket_code_6pm5sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketCode_6pm5sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="w-100 text-center">
+                                            <button class="btn btn-sm btn-danger" id="btnAddTicket_6pm5sam">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="heading" id="ticket_sam_type_6pm10sam">10 SAM</div>
+                                <div class="contents">
+                                    <form class="modalFormDesign">
+                                        <div class="mb-3">
+                                            <label for="no_of_ticket_6pm10sam" class="form-label fw-bold">No. of Ticket</label>
+                                            <select id="no_of_ticket_6pm10sam" class="form-control">
+                                                <option value="0">Select</option>
+                                                <option value="10">10</option>
+                                                <option value="20">20</option>
+                                                <option value="30">30</option>
+                                                <option value="50">50</option>
+                                                <option value="100">100</option>
+                                                <option value="200">200</option>
+                                                <option value="300">300</option>
+                                                <option value="400">400</option>
+                                                <option value="500">500</option>
+                                                <option value="1000">1000</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_serial_no_6pm10sam" class="form-label fw-bold">Ticket Serial No.</label>
+                                            <input type="text" class="form-control" id="ticket_serial_no_6pm10Sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketSerialNo_6pm10Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_draw_no_6pm10Sam" class="form-label fw-bold">Ticket Draw No.</label>
+                                            <input type="text" class="form-control" id="ticket_draw_no_6pm10Sam" maxlength="3" placeholder="" />
+                                            <h6 id="checkTicketDrawNo_6pm10Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_code_6pm10Sam" class="form-label fw-bold">Ticket Code</label>
+                                            <input type="text" class="form-control" id="ticket_code_6pm10Sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketCode_6pm10Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="w-100 text-center">
+                                            <button class="btn btn-sm btn-danger" id="btnAddTicket_6pm10Sam">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="heading" id="ticket_sam_type_6pm15Sam">15 SAM</div>
+                                <div class="contents">
+                                    <form class="modalFormDesign">
+                                        <div class="mb-3">
+                                            <label for="no_of_ticket_6pm15Sam" class="form-label fw-bold">No. of Ticket</label>
+                                            <select id="no_of_ticket_6pm15Sam" class="form-control">
+                                                <option value="0">Select</option>
+                                                <option value="10">10</option>
+                                                <option value="20">20</option>
+                                                <option value="30">30</option>
+                                                <option value="50">50</option>
+                                                <option value="100">100</option>
+                                                <option value="200">200</option>
+                                                <option value="300">300</option>
+                                                <option value="400">400</option>
+                                                <option value="500">500</option>
+                                                <option value="1000">1000</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_serial_no_6pm15Sam" class="form-label fw-bold">Ticket Serial No.</label>
+                                            <input type="text" class="form-control" id="ticket_serial_no_6pm15Sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketSerialNo_6pm15Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_draw_no_6pm15Sam" class="form-label fw-bold">Ticket Draw No.</label>
+                                            <input type="text" class="form-control" id="ticket_draw_no_6pm15Sam" maxlength="3" placeholder="" />
+                                            <h6 id="checkTicketDrawNo_6pm15Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_code_6pm15Sam" class="form-label fw-bold">Ticket Code</label>
+                                            <input type="text" class="form-control" id="ticket_code_6pm15Sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketCode_6pm15Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="w-100 text-center">
+                                            <button class="btn btn-sm btn-danger" id="btnAddTicket_6pm15Sam">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="heading" id="ticket_sam_type_6pm20Sam">20 SAM</div>
+                                <div class="contents">
+                                    <form class="modalFormDesign">
+                                        <div class="mb-3">
+                                            <label for="no_of_ticket_6pm20Sam" class="form-label fw-bold">No. of Ticket</label>
+                                            <select id="no_of_ticket_6pm20Sam" class="form-control">
+                                                <option value="0">Select</option>
+                                                <option value="10">10</option>
+                                                <option value="20">20</option>
+                                                <option value="30">30</option>
+                                                <option value="50">50</option>
+                                                <option value="100">100</option>
+                                                <option value="200">200</option>
+                                                <option value="300">300</option>
+                                                <option value="400">400</option>
+                                                <option value="500">500</option>
+                                                <option value="1000">1000</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_serial_no_6pm20Sam" class="form-label fw-bold">Ticket Serial No.</label>
+                                            <input type="text" class="form-control" id="ticket_serial_no_6pm20Sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketSerialNo_6pm20Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_draw_no_6pm20Sam" class="form-label fw-bold">Ticket Draw No.</label>
+                                            <input type="text" class="form-control" id="ticket_draw_no_6pm20Sam" maxlength="3" placeholder="" />
+                                            <h6 id="checkTicketDrawNo_6pm20Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_code_6pm20Sam" class="form-label fw-bold">Ticket Code</label>
+                                            <input type="text" class="form-control" id="ticket_code_6pm20Sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketCode_6pm20Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <!-- <div class="mb-3">
+                                            <label for="ticket_sam_type" class="form-label fw-bold">Ticket Sam Type</label>
+                                            <select id="ticket_sam_type" class="form-control">
+                                            </select>
+                                        </div> -->
+                                        <div class="w-100 text-center">
+                                            <button class="btn btn-sm btn-danger" id="btnAddTicket_6pm20Sam">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="acc green">
+                        <div class="acc-head ">
+                            <p id="ticket_draw_time8pm">8 PM</p>
+                        </div>
+                        <div class="acc-content">
+                            <div class="accordion">
+                                <div class="heading" id="ticket_sam_type_8pm3sam">3 SAM</div>
+                                <div class="contents">
+                                    <form class="modalFormDesign">
+                                        <div class="mb-3">
+                                            <label for="Age" class="form-label fw-bold">No. of Ticket</label>
+                                            <select id="no_of_ticket_8pm3sam" class="form-control">
+                                                <option value="0">Select</option>
+                                                <option value="10">10</option>
+                                                <option value="20">20</option>
+                                                <option value="30">30</option>
+                                                <option value="50">50</option>
+                                                <option value="100">100</option>
+                                                <option value="200">200</option>
+                                                <option value="300">300</option>
+                                                <option value="400">400</option>
+                                                <option value="500">500</option>
+                                                <option value="1000">1000</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_serial_no_8pm3sam" class="form-label fw-bold">Ticket Serial No.</label>
+                                            <input type="text" class="form-control" id="ticket_serial_no_8pm3sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketSerialNo" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_draw_no_8pm3sam" class="form-label fw-bold">Ticket Draw No.</label>
+                                            <input type="text" class="form-control" id="ticket_draw_no_8pm3sam" maxlength="3" placeholder="" />
+                                            <h6 id="checkTicketDrawNo" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_code_8pm3sam" class="form-label fw-bold">Ticket Code</label>
+                                            <input type="text" class="form-control" id="ticket_code_8pm3sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketCode" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="w-100 text-center">
+                                            <button class="btn btn-sm btn-danger" id="btnAddTicket_8pm3sam">Submit</button>
+                                        </div>
+                                    </form>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="heading" id="ticket_sam_type_8pm5sam">5 SAM</div>
+                                <div class="contents">
+                                    <form class="modalFormDesign">
+                                        <div class="mb-3">
+                                            <label for="Age" class="form-label fw-bold">No. of Ticket</label>
+                                            <select id="no_of_ticket_8pm5sam" class="form-control">
+                                                <option value="0">Select</option>
+                                                <option value="10">10</option>
+                                                <option value="20">20</option>
+                                                <option value="30">30</option>
+                                                <option value="50">50</option>
+                                                <option value="100">100</option>
+                                                <option value="200">200</option>
+                                                <option value="300">300</option>
+                                                <option value="400">400</option>
+                                                <option value="500">500</option>
+                                                <option value="1000">1000</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_serial_no_8pm3sam" class="form-label fw-bold">Ticket Serial No.</label>
+                                            <input type="text" class="form-control" id="ticket_serial_no_8pm5sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketSerialNo_8pm5sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_draw_no_8pm3sam" class="form-label fw-bold">Ticket Draw No.</label>
+                                            <input type="text" class="form-control" id="ticket_draw_no_8pm5sam" maxlength="3" placeholder="" />
+                                            <h6 id="checkTicketDrawNo_8pm5sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_code_8pm3sam" class="form-label fw-bold">Ticket Code</label>
+                                            <input type="text" class="form-control" id="ticket_code_8pm5sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketCode_8pm5sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="w-100 text-center">
+                                            <button class="btn btn-sm btn-danger" id="btnAddTicket_8pm5sam">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="heading" id="ticket_sam_type_8pm10sam">10 SAM</div>
+                                <div class="contents">
+                                    <form class="modalFormDesign">
+                                        <div class="mb-3">
+                                            <label for="no_of_ticket_8pm10sam" class="form-label fw-bold">No. of Ticket</label>
+                                            <select id="no_of_ticket_8pm10sam" class="form-control">
+                                                <option value="0">Select</option>
+                                                <option value="10">10</option>
+                                                <option value="20">20</option>
+                                                <option value="30">30</option>
+                                                <option value="50">50</option>
+                                                <option value="100">100</option>
+                                                <option value="200">200</option>
+                                                <option value="300">300</option>
+                                                <option value="400">400</option>
+                                                <option value="500">500</option>
+                                                <option value="1000">1000</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_serial_no_8pm10sam" class="form-label fw-bold">Ticket Serial No.</label>
+                                            <input type="text" class="form-control" id="ticket_serial_no_8pm10Sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketSerialNo_8pm10Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_draw_no_8pm10Sam" class="form-label fw-bold">Ticket Draw No.</label>
+                                            <input type="text" class="form-control" id="ticket_draw_no_8pm10Sam" maxlength="3" placeholder="" />
+                                            <h6 id="checkTicketDrawNo_8pm10Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_code_8pm10Sam" class="form-label fw-bold">Ticket Code</label>
+                                            <input type="text" class="form-control" id="ticket_code_8pm10Sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketCode_8pm10Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="w-100 text-center">
+                                            <button class="btn btn-sm btn-danger" id="btnAddTicket_8pm10Sam">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="heading" id="ticket_sam_type_8pm15Sam">15 SAM</div>
+                                <div class="contents">
+                                    <form class="modalFormDesign">
+                                        <div class="mb-3">
+                                            <label for="no_of_ticket_8pm15Sam" class="form-label fw-bold">No. of Ticket</label>
+                                            <select id="no_of_ticket_8pm15Sam" class="form-control">
+                                                <option value="0">Select</option>
+                                                <option value="10">10</option>
+                                                <option value="20">20</option>
+                                                <option value="30">30</option>
+                                                <option value="50">50</option>
+                                                <option value="100">100</option>
+                                                <option value="200">200</option>
+                                                <option value="300">300</option>
+                                                <option value="400">400</option>
+                                                <option value="500">500</option>
+                                                <option value="1000">1000</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_serial_no_8pm15Sam" class="form-label fw-bold">Ticket Serial No.</label>
+                                            <input type="text" class="form-control" id="ticket_serial_no_8pm15Sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketSerialNo_8pm15Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_draw_no_8pm15Sam" class="form-label fw-bold">Ticket Draw No.</label>
+                                            <input type="text" class="form-control" id="ticket_draw_no_8pm15Sam" maxlength="3" placeholder="" />
+                                            <h6 id="checkTicketDrawNo_8pm15Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_code_8pm15Sam" class="form-label fw-bold">Ticket Code</label>
+                                            <input type="text" class="form-control" id="ticket_code_8pm15Sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketCode_8pm15Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="w-100 text-center">
+                                            <button class="btn btn-sm btn-danger" id="btnAddTicket_8pm15Sam">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="heading" id="ticket_sam_type_8pm20Sam">20 SAM</div>
+                                <div class="contents">
+                                    <form class="modalFormDesign">
+                                        <div class="mb-3">
+                                            <label for="no_of_ticket_8pm20Sam" class="form-label fw-bold">No. of Ticket</label>
+                                            <select id="no_of_ticket_8pm20Sam" class="form-control">
+                                                <option value="0">Select</option>
+                                                <option value="10">10</option>
+                                                <option value="20">20</option>
+                                                <option value="30">30</option>
+                                                <option value="50">50</option>
+                                                <option value="100">100</option>
+                                                <option value="200">200</option>
+                                                <option value="300">300</option>
+                                                <option value="400">400</option>
+                                                <option value="500">500</option>
+                                                <option value="1000">1000</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_serial_no_8pm20Sam" class="form-label fw-bold">Ticket Serial No.</label>
+                                            <input type="text" class="form-control" id="ticket_serial_no_8pm20Sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketSerialNo_8pm20Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_draw_no_8pm20Sam" class="form-label fw-bold">Ticket Draw No.</label>
+                                            <input type="text" class="form-control" id="ticket_draw_no_8pm20Sam" maxlength="3" placeholder="" />
+                                            <h6 id="checkTicketDrawNo_8pm20Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="ticket_code_8pm20Sam" class="form-label fw-bold">Ticket Code</label>
+                                            <input type="text" class="form-control" id="ticket_code_8pm20Sam" maxlength="5" placeholder="" />
+                                            <h6 id="checkTicketCode_8pm20Sam" style="color: red;"> </h6>
+                                        </div>
+                                        <!-- <div class="mb-3">
+                                            <label for="ticket_sam_type" class="form-label fw-bold">Ticket Sam Type</label>
+                                            <select id="ticket_sam_type" class="form-control">
+                                            </select>
+                                        </div> -->
+                                        <div class="w-100 text-center">
+                                            <button class="btn btn-sm btn-danger" id="btnAddTicket_8pm20Sam">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Accrodian -->
+            </div>
+        </div>
+    </div>
+
+</div>

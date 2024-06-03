@@ -1,0 +1,159 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Login</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="manifest" href="~/manifest.json">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-card {
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 50px 40px;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+
+            .login-card h2 {
+                font-size: 28px;
+                font-weight: 600;
+                margin-bottom: 25px;
+                color: #333;
+            }
+
+            .login-card .form-control {
+                height: 50px;
+                border-radius: 25px;
+                font-size: 16px;
+                border: 1px solid #dee2e6;
+                margin-bottom: 20px;
+                padding: 0 20px;
+                transition: border-color 0.3s;
+            }
+
+                .login-card .form-control:focus {
+                    border-color: #6a11cb;
+                    box-shadow: none;
+                }
+
+            .login-card .btn-primary {
+                background-color: #6a11cb;
+                border-color: #6a11cb;
+                font-size: 18px;
+                padding: 12px;
+                border-radius: 25px;
+                width: 100%;
+                transition: background-color 0.3s, border-color 0.3s;
+            }
+
+                .login-card .btn-primary:hover {
+                    background-color: #5b0faa;
+                    border-color: #5b0faa;
+                }
+
+            .login-card .msg {
+                color: red;
+                font-size: 14px;
+                margin-top: 10px;
+                text-align: left;
+            }
+
+        @@media (max-width: 576px) {
+            .login-card {
+                padding: 40px 20px;
+            }
+
+                .login-card h2 {
+                    font-size: 24px;
+                }
+
+                .login-card .form-control {
+                    height: 45px;
+                    font-size: 14px;
+                }
+
+                .login-card .btn-primary {
+                    font-size: 16px;
+                }
+        }
+
+        .msg {
+            color: red;
+            font-size: 12px;
+            margin-top: 2px; 
+            margin-bottom: 2px;
+            text-align: left;
+        }
+    </style>
+    <script type="text/javascript">
+        function validateForm() {
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+            const usernameMsg = document.getElementById("username-msg");
+            const passwordMsg = document.getElementById("password-msg");
+            let isValid = true;
+
+            // username validation regex (simple version for 10 digits)
+            const mobileRegex = /^[0-9]{10}$/;
+
+            if (!username) {
+                usernameMsg.innerText = "Username is required.";
+                isValid = false;
+            } else if (!mobileRegex.test(username)) {
+                usernameMsg.innerText = "Invalid username. Please enter a 10-digit mobile number.";
+                isValid = false;
+            } else {
+                usernameMsg.innerText = ""; // Clear the error message if no error
+            }
+
+            if (!password) {
+                passwordMsg.innerText = "Password is required.";
+                isValid = false;
+            } else if (password.length > 20) {
+                passwordMsg.innerText = "Password must be less than or equal to 20 characters.";
+                isValid = false;
+            } else {
+                passwordMsg.innerText = ""; // Clear the error message if no error
+            }
+
+            return isValid;
+        }
+
+    </script>
+
+</head>
+<body>
+    <div class="login-card">
+        <h2>Login</h2>
+        <form id="LoginForm" method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="Login" onsubmit="return validateForm()">
+            <input type="text" class="form-control" id="username" name="username" placeholder="Username" maxlength="10" autocomplete="off">
+            <div id="username-msg" class="msg"></div>
+            <input type="password" class="form-control" id="password" name="password" placeholder="Password" maxlength="20" autocomplete="off">
+            <div id="password-msg" class="msg"></div>
+            <input type="submit" class="btn btn-primary" id="btnLogin" name="commit" value="Login">
+            <div id="msg" class="msg">@ViewBag.message</div>
+        </form>
+    </div>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

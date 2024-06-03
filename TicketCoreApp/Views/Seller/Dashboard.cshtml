@@ -1,0 +1,180 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+<div class="row">
+    <div class="col-12">
+        <form class="formSection">
+            <input type="hidden" id="sellerId" value="@HttpContextAccessor.HttpContext.Session.GetString("UserId")" />
+            <input type="hidden" id="ticketMasterId" />
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="ticket_draw_date" class="fw-bold form-label">Draw Date</label>
+
+                        <input type="text" class="form-control" id="ticket_draw_date" placeholder="yyyy-mm-dd" />
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="inputEmail3" class="fw-bold form-label">Draw Time</label>
+
+                        <select id="ticket_draw_time" class="form-control">
+                        </select>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="inputEmail3" class="fw-bold form-label">Ticket Serial No. From</label>
+
+                        <input type="text" class="form-control" id="ticket_serial_no_from" placeholder="" />
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="inputEmail3" class="fw-bold form-label">Ticket Serial No. To</label>
+
+                        <input type="text" class="form-control" id="ticket_serial_no_to" placeholder="" />
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="ticket_draw_date" class="fw-bold form-label">Ticket Sam Type</label>
+
+                        <select id="ticket_sam_type" class="form-control">
+                        </select>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            </div>
+            <br />
+            <button type="submit" class="btn btn-success mb-2" id="btnSearchTicket">Show Ticket</button>
+            &nbsp;&nbsp;&nbsp;
+            <button type="submit" class="btn btn-info mb-2" id="btnSearchPurchasedTicket">Purchased Ticket</button>
+            &nbsp;&nbsp;&nbsp;
+            <button type="submit" class="btn btn-warning mb-2" id="btnTicketCollection">Ticket Collection</button>
+        </form>
+    </div>
+</div>
+
+<div class="row" id="divBuyTicket">
+    <div class="col-12 text-center py-2">
+        <button type="submit" class="btn btn-success" id="btnRefreshTicket" data-bs-toggle="tooltip" data-bs-title="Refresh">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"></path>
+                <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"></path>
+            </svg>
+        </button>&nbsp;&nbsp;
+        <button type="submit" class="btn btn-primary" id="btnBuyTicket" onclick="return buyTicket();">&nbsp;&nbsp;&nbsp;Buy&nbsp;&nbsp;&nbsp;</button>
+    </div>
+    <div class="col-12">
+        <div class="w-100 border border-info p-3 h5 rounded-2 text-info mb-2" id="TotalSearchedBuyTicketCount">
+        </div>
+    </div>
+    <div class="col-12">
+        <ul class="SelectTiket" id="buyTickets">
+        </ul>
+    </div>
+</div>
+<div class="row" id="divPurchasedTicket">
+    <div class="col-12" id="TotalSearchedPurchaseTicketCount">
+    </div>
+    <div class="col-12">
+        <ul class="SelectTiket" id="purchasedTicket">
+        </ul>
+
+    </div>
+</div>
+<section id="divTicketCollection">
+    <div class="row">
+        <div class="col-12">
+            <div class="border border-info p-3 h5 rounded-2" id="TotalSearchedCollectionTicketCount">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row" id="TicketCollection">
+    </div>
+</section>
+<div class="row" id="divPrintableArea">
+@*    <div class="col-12 text-center py-2">
+        <button type="submit" class="btn btn-primary" id="btnPrintTicket" onclick="printDiv('PrintableArea')">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-printer-fill" viewBox="0 0 16 16">
+                <path d="M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2H5zm6 8H5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1z"></path>
+                <path d="M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2V7zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"></path>
+            </svg>&nbsp;&nbsp;&nbsp;Print All &nbsp;&nbsp;&nbsp;
+        </button>
+    </div>*@
+    <div class="col-12" id="PrintableArea">
+        <ul class="" id="tktHtml">
+        </ul>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        var today = new Date();
+        $('#ticket_draw_date').datepicker({
+            uiLibrary: 'bootstrap5',
+            autoclose: true,
+            format: 'yyyy-mm-dd',
+            endDate: "today",
+            maxDate: today
+        });
+
+        const tabs = document.querySelectorAll('[data-tab-target]')
+        const tabContents = document.querySelectorAll('[data-tab-content]')
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const target = document.querySelector(tab.dataset.tabTarget)
+                tabContents.forEach(tabContent => {
+                    tabContent.classList.remove('active')
+                })
+                tabs.forEach(tab => {
+                    tab.classList.remove('active')
+                })
+                tab.classList.add('active')
+                target.classList.add('active')
+            })
+        })
+
+        function printDiv(divName) {
+            
+            $(".singlePrint").hide();
+            var printContents = document.getElementById(divName).innerHTML;
+            var originalContents = document.body.innerHTML;
+
+            document.body.innerHTML = printContents;
+
+            window.print();
+
+            document.body.innerHTML = originalContents;
+        }
+        //function PrintTicket(printpage) {
+        //    var headstr = "<html><head><title></title></head><body>";
+        //    var footstr = "</body>";
+        //    var newstr = printpage.innerHTML;
+        //    var oldstr = document.body.innerHTML;
+        //    document.body.innerHTML = headstr + newstr + footstr;
+        //    window.print();
+        //    document.body.innerHTML = oldstr;
+        //    return false;
+        //}
+
+        function PrintTicket(printpage) {
+            
+            var a = window.open('', '', 'height=400, width=264');
+            a.document.write(printpage.innerHTML);
+            a.document.close();
+            a.print();
+        }
+
+    </script>
+
+  }
